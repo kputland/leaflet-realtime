@@ -1,6 +1,6 @@
 var map = L.map('map'),
     realtime = L.realtime({
-        url: 'https://wanderdrone.appspot.com/',
+        url: 'http://192.168.99.100:8080/sample.json',
         crossOrigin: true,
         type: 'json'
     }, {
